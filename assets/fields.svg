@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#e4eee2"/><stop offset="1" stop-color="#faf6df"/></linearGradient>
+    <linearGradient id="land" x2="1600" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#698e60"/><stop offset="1" stop-color="#abc18c"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <circle cx="1290" cy="240" r="100" fill="#fff5d2"/>
+  <path d="M0 550Q350 380 760 570T1600 480V1000H0Z" fill="#b6cba5"/>
+  <path d="M0 670Q450 470 900 650T1600 590V1000H0Z" fill="url(#land)"/>
+  <g stroke="#e2e8bb" stroke-width="5" opacity=".65">
+    <path d="M780 610Q450 700 130 1000M810 620Q610 750 420 1000M850 632Q800 780 730 1000M900 650Q1050 800 1070 1000M960 670Q1280 780 1460 1000"/>
+    <path d="M0 790Q450 620 910 755T1600 740M0 900Q480 720 910 850T1600 860"/>
+  </g>
+  <g stroke="#488071" stroke-width="2" opacity=".4">
+    <path d="M1170 410h90v-70h115v-90M1260 340h-80v-95M1375 340h100v80"/>
+    <circle cx="1170" cy="410" r="7"/><circle cx="1375" cy="250" r="7"/><circle cx="1180" cy="245" r="7"/><circle cx="1475" cy="420" r="7"/>
+  </g>
+  <g stroke="#426846" stroke-width="6" stroke-linecap="round">
+    <path d="M1350 690V535m0 70q-45-10-50-45 45-5 50 45m0-25q45-10 50-45-45-5-50 45"/>
+    <path d="M1450 710V570m0 70q-38-10-45-40 40-5 45 40m0-25q40-10 45-40-40-5-45 40"/>
+  </g>
+</svg>
